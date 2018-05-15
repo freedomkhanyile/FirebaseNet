@@ -12,3 +12,17 @@ C:\Users\FreedomK\POC\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.Asse
 C:\Users\FreedomK\POC\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.csproj.CopyComplete
 C:\Users\FreedomK\POC\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.dll
 C:\Users\FreedomK\POC\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.pdb
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\bin\Debug\netcoreapp2.0\Api.Core.deps.json
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\bin\Debug\netcoreapp2.0\Api.Core.runtimeconfig.json
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\bin\Debug\netcoreapp2.0\Api.Core.runtimeconfig.dev.json
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\bin\Debug\netcoreapp2.0\Api.Core.dll
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\bin\Debug\netcoreapp2.0\Api.Core.pdb
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\bin\Debug\netcoreapp2.0\FirebaseNet.dll
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\bin\Debug\netcoreapp2.0\FirebaseNet.pdb
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.csprojResolveAssemblyReference.cache
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.csproj.CoreCompileInputs.cache
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.AssemblyInfoInputs.cache
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.AssemblyInfo.cs
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.csproj.CopyComplete
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.dll
+C:\Users\FreedomK\Source\Repos\FirebaseNet\Api.Core\obj\Debug\netcoreapp2.0\Api.Core.pdb

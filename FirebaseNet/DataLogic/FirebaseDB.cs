@@ -41,5 +41,28 @@ namespace FirebaseNet.DataLogic
             return new FirebaseRequest(HttpMethod.Get, this.RootNode).Execute();
         }
 
+        public FirebaseResponse Put(string jsonData)
+        {
+            return new FirebaseRequest(HttpMethod.Put, this.RootNode, jsonData).Execute();
+        }
+
+        public FirebaseResponse Post(string jsonData)
+        {
+            return new FirebaseRequest(HttpMethod.Post, this.RootNode, jsonData).Execute();
+        }
+        public FirebaseResponse Patch(string jsonData)
+        {
+            return new FirebaseRequest(new HttpMethod("PATCH"), this.RootNode, jsonData).Execute();
+        }
+
+        public FirebaseResponse Delete()
+        {
+            return new FirebaseRequest(HttpMethod.Delete, this.RootNode).Execute();
+        }
+
+        public override string ToString()
+        {
+            return this.RootNode;
+        }
     }
 }

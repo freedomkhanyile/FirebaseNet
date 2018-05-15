@@ -8,40 +8,62 @@ namespace Api.Core
         public static void Main()
         {
             //Instantiating with base URL
-            var baseUrl = "https://accessrequestsapi.firebaseio.com/-LCE8eBb9e53-opXVkS6/Team-Awesome";
+            var baseUrl = "https://accessrequestsapi.firebaseio.com/Teams/Team-Awesome";
             FirebaseDB firebaseDB = new FirebaseDB(baseUrl);
 
             // Referring to Node with name "Teams"
             FirebaseDB firebaseDBTeams = firebaseDB.Node("Users");
 
             #region data to send
-            //var data = @"
-            //            {  
-            //                'Team - Awesome': {  
-            //                   'Users': {
-            //                   'U1': {
-            //                       'UserName': 'FakeD', 
-            //                   	'CloneUser': 'Master', 
-            //                   	'Email': 'Fake.Doe@mail.com', 
-            //                   	'FirstName': 'Fake',
-            //                   	'Surname': 'Doe',
-            //                   	'System': 'Automotive'
-            //                         } 
+            var data = @"
+                        {  
+                        
+                               'U1': {
+                                'UserName': 'FreedomK', 
+                               	'CloneUser': 'FakeD', 
+                               	'Email': 'Freedom.Khanyile@mail.com', 
+                               	'FirstName': 'Freedom',
+                               	'Surname': 'Khanyile',
+                               	'System': 'Automotive'
+                                     } 
                                             
-            //                      }
-            //                    }
-            //            } 
-            //        ";
+                              
+                        } 
+                    ";
 
             #endregion
 
+            //Get Response
             WriteLine("Get Request");
-            var response = firebaseDBTeams.Get();
-            WriteLine(response.Success);
-            if (response.Success)
+            var getResponse = firebaseDBTeams.Get();
+            WriteLine(getResponse.Success);
+            if (getResponse.Success)
             {
-                WriteLine(response.JSONContent);                
+                WriteLine(getResponse.JSONContent);                
             }
+            WriteLine();
+
+          
+            //Putt method :
+            WriteLine("PUT request");
+            var putResponse = firebaseDBTeams.Put(data);
+            WriteLine(putResponse.Success);
+            WriteLine();
+
+            //Post Method
+            //WriteLine("POST Request");
+            //var postResponse = firebaseDBTeams.Post(data);
+            //WriteLine(postResponse.Success);
+            //WriteLine();
+
+
+            //Still needs work will do ASAP
+            WriteLine("PATCH Request");
+            var patchResponse = firebaseDBTeams
+                // Use of NodePath to refer path lnager than a single Node  
+                .NodePath("Team-Awesome/Users/U1")
+                .Patch("{\"FreedomK\":\"King.Works@mail.com\"}");
+            WriteLine(patchResponse.Success);
             WriteLine();
 
             WriteLine(firebaseDBTeams.ToString());
