@@ -1,5 +1,6 @@
 ﻿using FirebaseNet.DataLogic;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Linq;
 using static System.Console;
@@ -17,22 +18,12 @@ namespace Api.Core
             // Referring to Node with name "Teams"
             FirebaseDB firebaseDBTeams = firebaseDB.Node("Users");
             var user = new User();
-            user.Email = "Nehemiah.Mackenzie@mail.com";
+            user.Email = "Jane.Doe@mail.com";
             //user.Email = "Freedom.Khanyile@mail.com";
             user.Status = "Active";
-            user.Role = "Developer";
+            user.Role = "Manager";
 
-            #region data to send
-            //var data = @"
-            //            {                          
-            //                'U1': {                                
-            //             	'Email': 'Freedom.Khanyile@mail.com', 
-            //             	'Status': 'Active',
-            //             	'Role': 'Developer'                            
-            //                   }                                           
-            //            } 
-            //        ";
-
+            #region data to send            
             string data = JsonConvert.SerializeObject(user);
 
             #endregion
@@ -46,13 +37,21 @@ namespace Api.Core
                 if (getResponse.JSONContent != "null")
                 {
                     WriteLine(getResponse.JSONContent);
-                    var userList = JsonConvert.DeserializeObject<UserJson[]>(getResponse.JSONContent);
-                    WriteLine("node number is: {0}"  );
+
+                    dynamic tempData = JsonConvert.DeserializeObject<dynamic>(getResponse.JSONContent);
+                    var userList = ((IDictionary<string, JToken>)tempData)
+                            .Select(d => JsonConvert.DeserializeObject<User>(d.Value.ToString())).ToList();
+                    var number = userList.Count + 1;
+                    var nodeNumber = "U" + number.ToString();
+
+                    var putResponse = firebaseDBTeams.NodePath(nodeNumber).Put(data);
+                    WriteLine(putResponse.Success);
+
                 }
                 else
                 {
                     WriteLine("No Users Yet");
-                    var putResponse1 = firebaseDBTeams.NodePath("U2").Put(data);
+                    var putResponse1 = firebaseDBTeams.NodePath("U1").Put(data);
                     WriteLine(putResponse1.Success);
                 }
                             
@@ -97,9 +96,5 @@ public class User
     public string Role { get; set; }
 }
 
-public class UserJson
-{
-    [JsonProperty("User")]
-    public User User { get; set; }
-}
+
 
