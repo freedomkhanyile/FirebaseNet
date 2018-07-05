@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v2.0": {
       "Api.Core/1.0.0": {
         "dependencies": {
-          "FirebaseNet": "1.0.0"
+          "FirebaseNet": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "Api.Core.dll": {}

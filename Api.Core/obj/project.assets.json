@@ -716,31 +716,29 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "FirebaseNet >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Newtonsoft.Json >= 11.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FreedomK\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\freedomk\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FreedomK\\Source\\Repos\\FirebaseNet\\Api.Core\\Api.Core.csproj",
+      "projectUniqueName": "C:\\Users\\freedomk\\Source\\Repos\\FirebaseNet\\Api.Core\\Api.Core.csproj",
       "projectName": "Api.Core",
-      "projectPath": "C:\\Users\\FreedomK\\Source\\Repos\\FirebaseNet\\Api.Core\\Api.Core.csproj",
-      "packagesPath": "C:\\Users\\FreedomK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FreedomK\\Source\\Repos\\FirebaseNet\\Api.Core\\obj\\",
+      "projectPath": "C:\\Users\\freedomk\\Source\\Repos\\FirebaseNet\\Api.Core\\Api.Core.csproj",
+      "packagesPath": "C:\\Users\\freedomk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\freedomk\\Source\\Repos\\FirebaseNet\\Api.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\FreedomK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\freedomk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -753,8 +751,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\FreedomK\\Source\\Repos\\FirebaseNet\\FirebaseNet\\FirebaseNet.csproj": {
-              "projectPath": "C:\\Users\\FreedomK\\Source\\Repos\\FirebaseNet\\FirebaseNet\\FirebaseNet.csproj"
+            "C:\\Users\\freedomk\\Source\\Repos\\FirebaseNet\\FirebaseNet\\FirebaseNet.csproj": {
+              "projectPath": "C:\\Users\\freedomk\\Source\\Repos\\FirebaseNet\\FirebaseNet\\FirebaseNet.csproj"
             }
           }
         }
@@ -772,6 +770,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
           }
         },
         "imports": [
