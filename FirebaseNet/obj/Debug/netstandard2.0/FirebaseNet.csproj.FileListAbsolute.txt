@@ -7,14 +7,6 @@ C:\Users\FreedomK\POC\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseN
 C:\Users\FreedomK\POC\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.AssemblyInfo.cs
 C:\Users\FreedomK\POC\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.dll
 C:\Users\FreedomK\POC\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.pdb
-C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.deps.json
-C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.dll
-C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.pdb
-C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.csproj.CoreCompileInputs.cache
-C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.AssemblyInfoInputs.cache
-C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.AssemblyInfo.cs
-C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.dll
-C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.pdb
 C:\Users\Freedom.Khanyile\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.deps.json
 C:\Users\Freedom.Khanyile\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.dll
 C:\Users\Freedom.Khanyile\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.pdb
@@ -24,3 +16,11 @@ C:\Users\Freedom.Khanyile\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstan
 C:\Users\Freedom.Khanyile\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.AssemblyInfo.cs
 C:\Users\Freedom.Khanyile\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.dll
 C:\Users\Freedom.Khanyile\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.pdb
+C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.deps.json
+C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.dll
+C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\bin\Debug\netstandard2.0\FirebaseNet.pdb
+C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.csproj.CoreCompileInputs.cache
+C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.AssemblyInfoInputs.cache
+C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.AssemblyInfo.cs
+C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.dll
+C:\Users\freedomk\Source\Repos\FirebaseNet\FirebaseNet\obj\Debug\netstandard2.0\FirebaseNet.pdb

@@ -215,23 +215,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Freedom.Khanyile\\.nuget\\packages\\": {},
+    "C:\\Users\\freedomk\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Freedom.Khanyile\\source\\repos\\FirebaseNet\\FirebaseNet\\FirebaseNet.csproj",
+      "projectUniqueName": "C:\\Users\\freedomk\\Source\\Repos\\FirebaseNet\\FirebaseNet\\FirebaseNet.csproj",
       "projectName": "FirebaseNet",
-      "projectPath": "C:\\Users\\Freedom.Khanyile\\source\\repos\\FirebaseNet\\FirebaseNet\\FirebaseNet.csproj",
-      "packagesPath": "C:\\Users\\Freedom.Khanyile\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Freedom.Khanyile\\source\\repos\\FirebaseNet\\FirebaseNet\\obj\\",
+      "projectPath": "C:\\Users\\freedomk\\Source\\Repos\\FirebaseNet\\FirebaseNet\\FirebaseNet.csproj",
+      "packagesPath": "C:\\Users\\freedomk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\freedomk\\Source\\Repos\\FirebaseNet\\FirebaseNet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Freedom.Khanyile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\freedomk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -239,6 +239,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://zajhbtfs01/api/v2": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

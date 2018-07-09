@@ -1,4 +1,5 @@
 ﻿using FirebaseNet.DataLogic;
+using FirebaseNet.Interfaces;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
@@ -13,15 +14,15 @@ namespace Api.Core
         {
             //Instantiating with base URL
             var baseUrl = "https://accessrequestsapi.firebaseio.com/";
-            FirebaseDB firebaseDB = new FirebaseDB(baseUrl);
+            IFirebase firebaseDB = new FirebaseDB(baseUrl);
 
             // Referring to Node with name "Teams"
             FirebaseDB firebaseDBTeams = firebaseDB.Node("Users");
             var user = new User();
-            user.Email = "Jane.Doe@mail.com";
+            user.Email = "User.Test@mail.com";
             //user.Email = "Freedom.Khanyile@mail.com";
             user.Status = "Active";
-            user.Role = "Manager";
+            user.Role = "Developer";
 
             #region data to send            
             string data = JsonConvert.SerializeObject(user);

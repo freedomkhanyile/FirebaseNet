@@ -1,10 +1,11 @@
 ﻿using FirebaseNet.Contracts;
+using FirebaseNet.Interfaces;
 using System;
 using System.Net.Http;
 
 namespace FirebaseNet.DataLogic
 {
-    public class FirebaseDB
+    public class FirebaseDB : IFirebase
     {
         /// Gets or sets Represents current full path of a Firebase Database resource 
         private string RootNode { get; set; }
